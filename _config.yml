@@ -7,17 +7,17 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Dylan Hammond's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
+name: Dylan Hammond
 headline: headline message
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm Dylan, a Master's student at Utah State University studying mechanical engineering with a focus on robotics and controls.
+  I'm currently seeking full time employement starting May 2026 after my graduation. I enjoy working on various engineering and 
+  mechatronics projects, check out some of the ones I've been working on!
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
