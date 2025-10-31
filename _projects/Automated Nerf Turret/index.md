@@ -5,6 +5,7 @@ description:  I designed and created a fully 3D printed nerf turret capable of o
 skills: 
 - Python (OpenCV)
 - Arduino
+- PID Controller Design
 - Solidworks
 main-image: /project.webp 
 ---
