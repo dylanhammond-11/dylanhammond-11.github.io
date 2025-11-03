@@ -7,8 +7,9 @@ skills:
 - PID Controller Design
 - Arduino
 main-image: /rccarside.png
+---
 
-
+---
 {% include image-gallery.html images="cr_electric.jpg" height="400" %}
 {% include image-gallery.html images="cr_cl_simulink.jpg" height="400" %}
 ---
