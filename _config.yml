@@ -11,7 +11,7 @@ title: "Dylan Hammond's Portfolio" # Appears in the browser tab
 
 # Hero Section
 name: Dylan Hammond
-headline:
+headline: Dylan Hammond
 description: >-
   I'm Dylan, a Master's student at Utah State University studying mechanical engineering with a focus on robotics and controls.
   I'm currently seeking full-time employment starting May 2026 after my graduation. I enjoy working on various engineering and 
@@ -25,7 +25,7 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 
 # External Links (only filled links will display)
 external-links:
-  linkedin: dylanthammond/
+  linkedin: dylanthammond
   github: dylanhammond-11
   medium:
   x-twitter:
@@ -63,7 +63,7 @@ skills:
 # ✉️ Contact Form Setup
 # ──────────────────────────────────────────────
 # Replace with your actual Formspree endpoint key
-formspree-key: https://formspree.io/f/{8-digit-key}
+formspree-key: https://formspree.io/f/mwpakoqz
 
 # ──────────────────────────────────────────────
 # 🎨 Theme Colors
