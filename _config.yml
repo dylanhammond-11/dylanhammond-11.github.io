@@ -18,7 +18,7 @@ description: >-
   mechatronics projects — check out some of the ones I've been working on!
 
 # Profile image (place image in /assets/images/profile-image/)
-profile_image: ./assets/images/profile-image/profile.jpeg
+profile_image: ./assets/images/profile-image/profile.jpg
 
 # Resume (either a local PDF or external link)
 resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
@@ -63,7 +63,7 @@ skills:
 # ✉️ Contact Form Setup
 # ──────────────────────────────────────────────
 # Replace with your actual Formspree endpoint key
-formspree-key: https://formspree.io/f/mwpakoqz
+formspree-key: mwpakoqz
 
 # ──────────────────────────────────────────────
 # 🎨 Theme Colors
