@@ -21,7 +21,7 @@ description: >-
 profile_image: ./assets/images/profile-image/profile.jpg
 
 # Resume (either a local PDF or external link)
-resume-url: https://dylanhammond-11.github.io/assets/resume/DylanHammond_Resume_2025.pdf
+resume-url: /assets/resume/DylanHammond_Resume_2025.pdf
 
 # External Links (only filled links will display)
 external-links:
