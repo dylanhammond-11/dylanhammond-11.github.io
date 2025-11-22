@@ -21,7 +21,7 @@ description: >-
 profile_image: ./assets/images/profile-image/profile.jpg
 
 # Resume (either a local PDF or external link)
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
+resume-url: assets/pdf/DylanHammond_Resume_2025.pdf
 
 # External Links (only filled links will display)
 external-links:
