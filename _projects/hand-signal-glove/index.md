@@ -10,15 +10,9 @@ skills:
   - Sensor Programming
   - Machine Learning
   - Arduino IDE
-main-image: /glovemain.jpg
+main-image: /projects/hand-signal-glove/glovemain.jpg
 ---
----
-### Embeed images
-{% include image-gallery.html 
-    images="/projects/hand-signal-glove/gloveopen.jpg,
-    /projects/hand-signal-glove/gloveclosed.jpg" 
-    height="400"
-%}
 
+### Embedded Images
 
----
+{% include image-gallery.html images="/projects/hand-signal-glove/gloveopen.jpg,/projects/hand-signal-glove/gloveclosed.jpg" height="400" %}
