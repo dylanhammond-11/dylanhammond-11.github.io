@@ -11,11 +11,8 @@ main-image: /rccarside.png
 
 ---
 
-### Embedded Images
-
 {% include image-gallery.html images="car_cl_simulink.png, rccarside.png" height="400" %}
 
-## Embedding youtube video
 
 {% include youtube-video.html id="bkOKexwXcTg" autoplay = "true" %}
 ---
