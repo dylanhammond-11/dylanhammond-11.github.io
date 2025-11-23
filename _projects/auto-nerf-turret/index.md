@@ -10,11 +10,6 @@ skills:
 main-image: /TurretLeft.jpg 
 ---
 ---
-### Embeed images
-{% include image-gallery.html 
-    images="/projects/Automated-Nerf-Turret/TurretLeft.jpg" 
-    height="400"
-%}
+### Embedded Images
 
-
----
+{% include image-gallery.html images="TurretRight.jpg, TurretTop.jpg, TurretFront.jpg" height="400" %}
