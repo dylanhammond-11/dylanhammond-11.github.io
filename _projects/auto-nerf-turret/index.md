@@ -9,7 +9,7 @@ skills:
 - Arduino
 - PID Controller Design
 - Solidworks
-main-image: /TurretMain.jpg
+main-image: /TurretMain1.jpg
 
 ---
 ---
