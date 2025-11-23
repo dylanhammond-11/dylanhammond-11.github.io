@@ -13,6 +13,4 @@ skills:
 main-image: /glovemain1.jpg
 ---
 
-### Embedded Images
-
 {% include image-gallery.html images="gloveopen.jpg, gloveclosed.jpg" height="400" %}
