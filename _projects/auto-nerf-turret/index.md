@@ -13,6 +13,5 @@ main-image: /TurretMain1.jpg
 
 ---
 ---
-### Embedded Images
 
 {% include image-gallery.html images="TurretRight.jpg, TurretLeft.jpg, TurretTop.jpg, TurretFront.jpg" height="400" %}
