@@ -10,7 +10,7 @@ skills:
   - Sensor Programming
   - Machine Learning
   - Arduino IDE
-main-image: /glovemain.jpg
+main-image: /glovemain1.jpg
 ---
 
 ### Embedded Images
