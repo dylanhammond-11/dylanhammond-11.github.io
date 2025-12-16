@@ -15,9 +15,9 @@ description: |
  
 skills: 
 - Python
-main-image: /aggiemaps_main.png
+main-image: /aggiemaps_3.png
 
 ---
 ---
 
-{% include image-gallery.html images="aggiemaps_2.png, aggiemaps_3.png " height="400" %}
+{% include image-gallery.html images="aggiemaps_2.png, aggiemaps_3.png, aggiemaps_main.png " height="400" %}
