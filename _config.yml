@@ -44,6 +44,7 @@ skills:
       - Python
       - Matlab/Simulink
       - C++
+      - ROS2
       - Git
 
   - category: Software
@@ -54,9 +55,9 @@ skills:
 
   - category: Design and Prototyping
     tools:
+      - 3D Printing
       - GD&T
       - Technical Drawings
-      - 3D Printing
       - Carbon Fiber Manufacturing
 
 # ──────────────────────────────────────────────
