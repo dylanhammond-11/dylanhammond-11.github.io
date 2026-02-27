@@ -15,6 +15,7 @@ description: |
  
 skills: 
 - Python
+- A*
 main-image: /aggiemaps_main.png
 
 ---
