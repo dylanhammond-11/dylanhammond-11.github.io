@@ -8,8 +8,10 @@ description: |
   I worked with a group of 5 other students to create this glove for our senior capstone design project.
 skills: 
   - ESP32
-  - Sensor Programming
-  - Machine Learning
+  - MPU6050
+  - Signal Processing
+  - Sensor Fusion
+  - Deep Learning
   - Arduino IDE
 main-image: /glovemain1.jpg
 ---
