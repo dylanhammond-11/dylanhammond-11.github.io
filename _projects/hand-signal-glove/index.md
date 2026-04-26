@@ -11,7 +11,7 @@ skills:
   - Sensor Fusion
   - CNN
   - Arduino IDE
-main-image: /glovemain1.jpg
+main-image: /glovemain.jpg
 ---
 
 The **Hand Signal Interpreting Glove** was developed as part of a senior capstone design project in collaboration with a team of five students. The goal of the system was to enable reliable, discreet communication through hand signals by translating physical gestures into wireless commands.
