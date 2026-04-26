@@ -4,7 +4,7 @@
 # You can edit text, links, and colors here.
 
 # ──────────────────────────────────────────────
-# 🏠 Main Page Setup
+#  Main Page Setup
 # ──────────────────────────────────────────────
 
 title: "Dylan Hammond's Portfolio" # Appears in the browser tab
@@ -46,6 +46,11 @@ skills:
       - C++
       - ROS2
       - Git
+      
+  - category: Controls & Robotics
+      - PID 
+      - LQR
+      - Sensor Fusion
 
   - category: Software
     tools:
