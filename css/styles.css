@@ -236,7 +236,7 @@ nav .mobile-nav {
 /* NAVIGATION ARROW */
 .arrow{
     margin-top: 125px;
-    margin-bottom: 300px;
+    margin-bottom: 180px;
     display: flex;
     justify-content: center;  
 }
@@ -847,7 +847,7 @@ footer p {
     }
 
     .project-grid-section .grid-container {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     }
   
     /*SECTION 4:Contact */
