@@ -1,24 +1,32 @@
+---
 layout: post
 title: Hand Signal Interpreting Glove
-description: |
-  This project involved designing a wearable glove capable of recognizing 25 predefined hand signals and wirelessly transmitting commands to control a remote vehicle. The system enables reliable communication when voice or line-of-sight interaction is limited.
-
-  The glove integrates five flex sensors and an MPU6050 inertial measurement unit (IMU) to capture finger deflection and hand motion data at approximately 100 Hz. Sensor signals are filtered and processed before being passed to a 1D convolutional neural network (CNN) deployed on an ESP32 microcontroller for real-time gesture classification.
-
-  The embedded model achieved approximately 95% classification accuracy while meeting real-time latency and memory constraints of the microcontroller platform.
-
-  The system includes mode-selection toggle switches, LED status indicators, and a custom printed circuit board (PCB) to create a compact and field-deployable design.
-
-  I collaborated with a team of five students on this senior capstone project, focusing on sensor integration, signal processing, and embedded system implementation.
-skills: 
+description: "Wearable glove system that classifies 25 hand signals using flex sensors, an MPU6050 IMU, and an embedded 1D CNN deployed on an ESP32 for real-time wireless control."
+skills:
   - ESP32
   - MPU6050
-  - Embedded Systems
+  - Flex Sensors
   - Signal Processing
   - Sensor Fusion
-  - 1D Convolutional Neural Networks
-  - Real-Time Systems
+  - Deep Learning
   - Arduino IDE
 main-image: /glovemain1.jpg
+---
 
+The **Hand Signal Interpreting Glove** was developed as part of a senior capstone design project in collaboration with a team of five students. The goal of the system was to enable reliable, discreet communication through hand signals by translating physical gestures into wireless commands.
+
+The glove uses five flex deflection sensors and an MPU6050 inertial measurement unit (IMU) to capture finger position and hand motion data. These signals are processed and classified using a one-dimensional convolutional neural network (1D CNN) deployed directly on an ESP32 microcontroller for real-time embedded inference.
+
+The system achieved approximately **95% classification accuracy** across 25 distinct hand signals. Once a gesture is recognized, the glove wirelessly transmits the corresponding command to control a remote vehicle.
+
+Additional system features include:
+
+- Real-time gesture classification on embedded hardware  
+- Wireless communication between glove and vehicle  
+- Transmission mode toggle switches for system control  
+- LED indicator lights for user feedback  
+- Custom PCB design for compact and lightweight integration  
+
+{% raw %}
 {% include image-gallery.html images="gloveopen.jpg, gloveclosed.jpg" height="400" %}
+{% endraw %}
