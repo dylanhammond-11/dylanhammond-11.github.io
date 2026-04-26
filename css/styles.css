@@ -313,7 +313,7 @@ nav .mobile-nav {
 
 .project-card img {
     width: 100%;
-    height: 280px;      /* force taller images */
+    height: 360px;      /* force taller images */
     object-fit: cover;  /* keeps proportions */
     display: block;
     border-radius: 6px;
