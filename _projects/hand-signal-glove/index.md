@@ -1,19 +1,24 @@
----
 layout: post
 title: Hand Signal Interpreting Glove
 description: |
-  This glove is capable of interpreting 25 hand signals and wirelessly transmitting them to control a drone, enabling discreet long-range communication even when out of sight.
-  The glove uses five flex deflection sensors and an MPU6050 to collect hand gesture and finger position data. The sensors are paired with a machine learning algorithm to quickly detect hand signals at 95% accuracy.
-  The glove features transmission mode toggle switches, LED indicator lights, and a custom PCB for a sleek and lightweight design.
-  I worked with a group of 5 other students to create this glove for our senior capstone design project.
+  This project involved designing a wearable glove capable of recognizing 25 predefined hand signals and wirelessly transmitting commands to control a remote vehicle. The system enables reliable communication when voice or line-of-sight interaction is limited.
+
+  The glove integrates five flex sensors and an MPU6050 inertial measurement unit (IMU) to capture finger deflection and hand motion data at approximately 100 Hz. Sensor signals are filtered and processed before being passed to a 1D convolutional neural network (CNN) deployed on an ESP32 microcontroller for real-time gesture classification.
+
+  The embedded model achieved approximately 95% classification accuracy while meeting real-time latency and memory constraints of the microcontroller platform.
+
+  The system includes mode-selection toggle switches, LED status indicators, and a custom printed circuit board (PCB) to create a compact and field-deployable design.
+
+  I collaborated with a team of five students on this senior capstone project, focusing on sensor integration, signal processing, and embedded system implementation.
 skills: 
   - ESP32
   - MPU6050
+  - Embedded Systems
   - Signal Processing
   - Sensor Fusion
-  - Deep Learning
+  - 1D Convolutional Neural Networks
+  - Real-Time Systems
   - Arduino IDE
 main-image: /glovemain1.jpg
----
 
 {% include image-gallery.html images="gloveopen.jpg, gloveclosed.jpg" height="400" %}
