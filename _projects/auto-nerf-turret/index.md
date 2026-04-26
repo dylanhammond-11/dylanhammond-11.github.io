@@ -10,7 +10,7 @@ skills:
   - PID Control
   - Computer Vision
   - SolidWorks
-main-image: /TurretMain1.jpg
+main-image: /TurretMain.jpg
 ---
 
 The **Automated Tracking Turret** is a fully autonomous system designed and built from scratch to detect, track, and engage moving targets using computer vision and closed-loop control.
