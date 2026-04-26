@@ -266,7 +266,7 @@ nav .mobile-nav {
 
 /*SECTION 2: PROJECT GRID */
 .project-grid-section {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-top: 50px;
     display:flex;
     flex-direction: column;
