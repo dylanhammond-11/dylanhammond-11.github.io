@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Autonomous Following RC Car
+order: 3
 description: "Autonomous RC vehicle that follows a target using ultrasonic sensing and closed-loop PID control designed and simulated in MATLAB/Simulink."
 skills:
   - MATLAB
