@@ -2,7 +2,7 @@
 layout: post
 title: Aggie Maps
 order: 4
-description: "Python-based path planning tool that computes optimal pedestrian routes using Dijkstra and A* search algorithms with environment-dependent cost weighting."
+description: "Python-based path planning tool for Utah State University that computes optimal pedestrian routes using Dijkstra and A* search algorithms with environment-dependent cost weighting."
 skills:
   - Python
   - A* Search
