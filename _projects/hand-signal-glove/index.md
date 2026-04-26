@@ -27,6 +27,6 @@ Additional system features include:
 - LED indicator lights for user feedback  
 - Custom PCB design for compact and lightweight integration  
 
-{% raw %}
+
 {% include image-gallery.html images="gloveopen.jpg, gloveclosed.jpg" height="400" %}
-{% endraw %}
+
