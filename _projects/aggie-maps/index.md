@@ -1,24 +1,37 @@
 ---
 layout: post
 title: Aggie Maps
-description: |
-  AggieMaps is a python-based interactive path planner tool designed for optimal pedestrian routing around Utah State University campus. This tool uses the Dijkstra and A* search algorithms to find optimal routes using a topological representation of the USU campus.
-
-  The main feature of AggieMaps is its environment-dependent cost-weighting. At low temperatures, indoor based paths are prioritized as pedestrians prefer to walk in closed warm spaces (despite sometimes being a slightly longer route). At warmer temperatures, the shortest distance outdoor path is prioritized. The outdoor temperature is a user input at the beginning of the simulation.
- 
-  The user interaction occurs through a simple graphical interface featuring a satellite image of the campus map. The user clicks on the interface to select the starting and ending node, and the simulation runs and the optimal route based on the conditions is found.
-
-  For more information about this project and code please contact me as the repository is currently private.
-
- 
-
- 
-skills: 
-- Python
-- A*
+description: "Python-based path planning tool that computes optimal pedestrian routes using Dijkstra and A* search algorithms with environment-dependent cost weighting."
+skills:
+  - Python
+  - A* Search
+  - Dijkstra Algorithm
+  - Graph Algorithms
+  - Path Planning
+  - GUI Development
 main-image: /aggiemaps_main.png
-
----
 ---
 
-{% include image-gallery.html images="aggiemaps_2.png, aggiemaps_3.png, aggiemaps_main.png " height="400" %}
+**Aggie Maps** is an interactive path planning tool developed to compute optimal pedestrian routes across the Utah State University campus using graph-based search algorithms.
+
+The campus environment is modeled as a topological graph where nodes represent key locations and edges represent traversable paths. Dijkstra and A* search algorithms are used to compute optimal routes between user-selected start and destination points.
+
+A key feature of the system is **environment-dependent cost weighting**. The path planner dynamically adjusts edge costs based on outdoor temperature conditions:
+
+- At low temperatures, indoor routes are prioritized to reflect user comfort and environmental constraints  
+- At warmer temperatures, the shortest outdoor path is preferred  
+- Temperature is provided as a user input at runtime  
+
+User interaction occurs through a graphical interface displaying a satellite map of the campus. The user selects start and destination nodes by clicking on the map, and the system computes and visualizes the optimal route based on current conditions.
+
+Key system features include:
+
+- Graph-based modeling of campus navigation network  
+- Implementation of Dijkstra and A* search algorithms  
+- Environment-dependent path cost weighting  
+- Interactive graphical user interface for route selection  
+- Real-time visualization of computed optimal paths  
+
+For additional details or access to the source code, please contact me as the repository is currently private.
+
+{% include image-gallery.html images="aggiemaps_2.png, aggiemaps_3.png, aggiemaps_main.png" height="400" %}
