@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automated Tracking Turret
+order: 2
 description: "Autonomous 3D-printed turret that uses computer vision and PID control to track and engage moving targets using real-time servo actuation."
 skills:
   - Python
