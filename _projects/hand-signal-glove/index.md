@@ -8,7 +8,7 @@ skills:
   - Flex Sensors
   - Signal Processing
   - Sensor Fusion
-  - Deep Learning
+  - CNN
   - Arduino IDE
 main-image: /glovemain1.jpg
 ---
