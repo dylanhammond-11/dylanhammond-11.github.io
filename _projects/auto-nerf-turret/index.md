@@ -1,17 +1,29 @@
 ---
 layout: post
-title: Automated Tracking Nerf Turret
-description: |
-  I designed and made a fully autonomous 3D printed turret from scratch capable of of tracking and firing at objects. The turret uses a usb camera paired with OpenCV to detect and track the objects. The turret is controlled by an Arduino Uno board. PID controllers are used for accurate tracking and firing.
-  The turret is driven by three MG90s servo motors, two for pan and tilt control, and one for loading. Two DC motors drive a wheel shooter to fire the ammo.
-skills: 
-- Python (OpenCV)
-- Arduino
-- PID Controller Design
-- Solidworks
+title: Automated Tracking Turret
+description: "Autonomous 3D-printed turret that uses computer vision and PID control to track and engage moving targets using real-time servo actuation."
+skills:
+  - Python
+  - OpenCV
+  - Arduino
+  - PID Control
+  - Computer Vision
+  - SolidWorks
 main-image: /TurretMain1.jpg
+---
 
----
----
+The **Automated Tracking Turret** is a fully autonomous system designed and built from scratch to detect, track, and engage moving targets using computer vision and closed-loop control.
+
+The turret uses a USB camera paired with OpenCV to detect and track objects in real time. Target position is converted into control error signals, which are processed by PID controllers to generate smooth and accurate pan and tilt commands.
+
+An Arduino Uno microcontroller executes the control logic and drives the actuators. The mechanical structure was fully designed in SolidWorks and fabricated using 3D printing.
+
+The system includes:
+
+- Real-time object detection and tracking using OpenCV  
+- Closed-loop PID control for stable pan and tilt motion  
+- Three MG90S servo motors for pan, tilt, and loading control  
+- Dual DC motors driving a wheel-based projectile launcher  
+- Fully custom 3D-printed mechanical design and assembly  
 
 {% include image-gallery.html images="TurretRight.jpg, TurretLeft.jpg, TurretTop.jpg, TurretFront.jpg" height="400" %}
