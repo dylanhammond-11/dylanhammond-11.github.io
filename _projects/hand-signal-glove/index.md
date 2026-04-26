@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hand Signal Interpreting Glove
+order: 1
 description: "Wearable glove system that classifies 25 hand signals using flex sensors, an MPU6050 IMU, and an embedded 1D CNN deployed on an ESP32 for real-time wireless control."
 skills:
   - ESP32
