@@ -9,7 +9,7 @@ skills:
   - Extended Kalman Filter
   - Sensor Fusion
   - Control Theory
-main-image: /EKFMain.jpg
+main-image: /EKFMain.png
 ---
 The **EKF Localization Robot** is a ROS2 simulation of a differential drive robot that estimates its own position and heading in real time by fusing noisy GPS, IMU, and wheel encoder measurements through an Extended Kalman Filter implemented from scratch.
 
