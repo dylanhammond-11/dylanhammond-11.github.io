@@ -25,7 +25,7 @@ The filter runs five equations total, split into two steps.
 **Predict**: propagate the state forward using the motion model, using forward velocity `v` from the wheel encoders and angular velocity `ω` from the IMU gyro:
 
 <p align="center">
-  <img src="/_projects/ekf-robot-sim/EKFPredictEquations.png" width="600">
+  <img src="/_projects/ekf-robot-sim/EKFPredictEquations.png" width="400">
 </p>
 
 Neither sensor is perfect, so every prediction also grows the filter's uncertainty, tracked as a covariance matrix `P`, since it's extrapolating from a model without outside confirmation. This step runs continuously at the same rate as the encoder/IMU updates (50 Hz), since prediction only depends on having a fresh velocity input.
@@ -33,7 +33,7 @@ Neither sensor is perfect, so every prediction also grows the filter's uncertain
 **Update**: correct the prediction whenever a new GPS reading arrives, pulling the estimate toward that measurement by however much it should be trusted relative to the prediction. GPS is realistically much slower than the other sensors, so I ran the sampling rate at 1Hz. The filter predicts many steps forward between each correction:
 
 <p align="center">
-  <img src="/_projects/ekf-robot-sim/EKFUpdateEquations.png" width="600">
+  <img src="/_projects/ekf-robot-sim/EKFUpdateEquations.png" width="400">
 </p>
 
 GPS only observes position, not heading, so this step corrects x and y directly, while heading is corrected indirectly through the correlations the filter has learned between position and heading error. The same update also shrinks `P`.  You can actually watch this happen in the tuning GIFs below, where `P` is drawn directly as a covariance ellipse around the robot's estimated position.
